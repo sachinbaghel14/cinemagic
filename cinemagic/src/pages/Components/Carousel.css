@@ -1,0 +1,128 @@
+.carousel img {
+    /* width: 100%; */
+    height: 700px;
+    margin: 0px;
+    object-fit: fill;
+}
+
+/* .item-carousel {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.carousel-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    justify-content: flex-end;
+    color: white;
+    position: absolute;
+    padding-bottom: 50px;
+}
+
+.t1 {
+    align-items: flex-start;
+    left: 118px;
+}
+
+.t2 {
+    align-items: flex-end;
+    right: 118px;
+    width: 500px;
+}
+
+.title-tag {
+    color: #F6C417;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    justify-content: space-evenly;
+    width: 4%;
+}
+
+.cor-first-p {
+    font-size: 32px;
+    animation: fadeInLeft 1.5s ease forwards;
+    margin-bottom: 12px;
+}
+
+.heading {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    animation: fadeInRight 1.5s ease forwards;
+}
+
+.cor-sec-p {
+    display: flex;
+    font-size: 15px;
+    animation: fadeInLeft 1.5s ease forwards;
+    /* margin-bottom: 26px; */
+}
+
+.para {
+    text-align: right;
+    font-size: 12px;
+}
+
+.rating-type {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.type-rating {
+    padding: 1px 15px;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+.carousel-btn {
+    padding: 5px 22px;
+    background-color: transparent;
+    cursor: pointer !important;
+    border: 1px solid #F6C417;
+    border-radius: 0%;
+    color:#F6C417;
+    font-weight: 600;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.carousel-btn:hover{
+    background-color: #F6C417;
+    color: black;
+}
+.carousel-btn-div {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.book-btn{
+    background-color: #F6C417;
+    color: black;
+}
+.carousel .carousel-indicators button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-bottom: 80px;
+}
+.carousel-indicators{
+    width: fit-content;
+    left: 50%;
+    margin:0px;
+}
+.carousel-icon{
+    color: #F6C417 !important;
+}
+.svg-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}

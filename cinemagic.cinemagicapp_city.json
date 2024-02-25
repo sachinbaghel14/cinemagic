@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "65bf49fc113aea3a04067f2f"
+  },
+  "city_id": 1,
+  "name": "Delhi"
+},
+{
+  "_id": {
+    "$oid": "65bf4a0e113aea3a04067f30"
+  },
+  "city_id": 2,
+  "name": "Mumbai"
+},
+{
+  "_id": {
+    "$oid": "65bf4a28113aea3a04067f31"
+  },
+  "city_id": 3,
+  "name": "Bangalore"
+},
+{
+  "_id": {
+    "$oid": "65bf4a36113aea3a04067f32"
+  },
+  "city_id": 4,
+  "name": "Pune"
+},
+{
+  "_id": {
+    "$oid": "65bf4a4a113aea3a04067f33"
+  },
+  "city_id": 5,
+  "name": "Kolkata"
+}]

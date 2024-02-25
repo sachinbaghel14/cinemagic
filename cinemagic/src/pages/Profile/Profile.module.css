@@ -1,0 +1,52 @@
+.profileDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    flex-direction: column;
+}
+.mvHeading{
+    padding: 0px 0px 20px 0px;
+}
+.formContainer{
+    display: flex;
+    gap: 24px;
+}
+.formLabel{
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    
+}
+.formInput{
+ width: 393px;
+ height: 44px;
+ padding: 10px 16px;
+ font-size: 15px;
+ font-weight: 500;
+}
+.formInput:focus{
+    border-color: #fee505;
+}
+.signout {
+    width: 140px;
+    background-color: #fee505;
+    color: black;
+    gap: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    box-shadow: 0 .5rem 1.125rem -.5rem #fee505;
+    transition: 0.5s ease;
+    padding: 10px 0px;
+    margin: 10px 100px 0px 0px;
+    font-weight: 600;
+}
+.signout:hover {
+    box-shadow: none;
+    background-color: #fee505;
+    color: black;
+}

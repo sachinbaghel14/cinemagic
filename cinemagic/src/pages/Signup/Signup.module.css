@@ -1,0 +1,71 @@
+.loadingSpinner{
+    margin: 100px 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 450px;
+    color:#4b566b;
+
+}
+.loginTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.logo{
+    width: 300px;
+}
+.name{
+    display: flex;
+    gap: 20px;
+}
+.formLabel{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.formInput:focus{
+    border-color: #fee505;
+    box-shadow: none;
+}
+.forget{
+    text-decoration: none;
+    color: #fe696a;
+}
+.createAccount{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.loginBtn{
+    width: 100%;
+    background-color: #fee505;
+    padding: 9px 0px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.loginBtn:hover{
+    background-color: #CFDC34;
+    color: black;
+}
+.loginContainer h6{
+    margin-bottom: 0px;
+}
+.signupBtn{
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}

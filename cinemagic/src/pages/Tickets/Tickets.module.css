@@ -1,0 +1,103 @@
+.container{
+    margin-top: 120px;
+    padding: 0px 118px;
+}
+.tickets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+    
+}
+.ticket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4a4d4f;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px 10px 20px 20px;
+    /* border-style: none none dashed none;
+    border-color: white; */
+  }
+  
+  .midSection {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .location {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .hrTicket {
+    border-top: 2px dashed white;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .dateTime {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .dayTime {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 10px 0px;
+  }
+  
+  .tableRow {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  
+  .pay{
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4a4d4f;
+    border-radius: 20px 20px 10px 10px;
+    border-style: dashed none none none;
+    border-color: rgb(121, 121, 121);
+  }
+  .pay span{
+    background-color: #fee505;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .total{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    align-items: center;
+  }
+  .movieName{
+    margin-top: 20px;
+    /* font-weight: 600; */
+  }

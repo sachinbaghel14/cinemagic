@@ -1,0 +1,234 @@
+.movie {
+    /* background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    z-index: -1; */
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+}
+
+.movieDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+.backgroundImg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.2;
+    top: 0px;
+}
+
+.container {
+    display: flex;
+    padding: 0px 120px;
+    margin-top: 120px;
+    z-index: 10;
+    /* gap: 90px; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    gap:15px
+}
+
+.location select {
+    color: white;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    background-image: url('../../assets/down-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 4px 16px 4px 4px;
+    cursor: pointer;
+}
+
+.theaterSelect {
+    min-width: 92.8px;
+    width: fit-content;
+    background-position: 75px 4px;
+}
+
+.citySelect {
+    width: fit-content;
+    background-position: 90px 4px;
+    /* padding-right: 0px !important; */
+}
+
+.location select:focus {
+    border: none;
+    outline: none;
+    background-color: black;
+}
+
+.bdgS input {
+    display: none;
+}
+
+.bdgS input:checked+.sizeLabel {
+    border: 2px solid #fee505;
+}
+
+.bdgS input:checked+.timeLabel {
+    border: 2px solid #fee505;
+}
+
+.bdgS label {
+    position: relative;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    border: 2px solid transparent;
+
+}
+
+.sizeLabel {
+    width: 38px;
+    height: 44px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.timeLabel {
+    width: 65px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.timeSelect {
+    margin-top: 20px;
+}
+
+.bdgS label:hover {
+    border: 2px solid white;
+}
+
+.bdgS {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.movieCard {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.cateRatingDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.ratingType {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.description {}
+
+.theater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* justify-content: center; */
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    border: solid 5px #ffffff;
+    border-color: #ffffff transparent transparent transparent;
+    border-radius: 50%/80px 100px 0 0;
+}
+.seatingLayout{
+    display: flex;
+    gap: 60px;
+    width: 600px;
+}
+.leftSeatingLayout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.rightSeatingLayout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.seatingRowDiv{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.seatingRowDiv div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+.sampleSeating{
+    display: flex;
+    gap: 60px;
+}
+.sampleSeating div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sampleSeating h6{
+    margin: 0;
+}
+.availableSeat{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.soldSeat{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #909090;
+}
+.selectedSeat{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #c9887c;
+}
+.ticket{
+    margin-top: 80px;
+}

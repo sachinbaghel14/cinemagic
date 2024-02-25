@@ -1,0 +1,45 @@
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-x: hidden;
+}
+.search{
+    display: flex;
+    gap:5px
+}
+.filter-select{
+    color: white;
+    border: 0.75px solid white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    outline: none;
+    background-image: url('./assets/down-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 4px 16px 4px 4px;
+    cursor: pointer;
+    width: fit-content;
+}
+.filter-select:focus {
+    outline: none;
+    background-color: black;
+}
+.search-bar {
+    width: 700px;
+    height: 44px;
+    background: transparent;
+    color: white;
+}
+.search-bar:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.search-bar::placeholder {
+    color: white !important;
+}

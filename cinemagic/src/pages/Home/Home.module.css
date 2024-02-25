@@ -1,0 +1,15 @@
+.loadingSpinner {
+    margin: 100px 0px;
+}
+.title{
+    padding-top: 150px;
+}
+.movieContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mvHeading{
+    padding: 60px 0px 10px 118px;
+}

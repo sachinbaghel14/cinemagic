@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a79"
+  },
+  "therater_id": 1,
+  "name": "PVR",
+  "seating_capacity": 154
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a7f"
+  },
+  "therater_id": 2,
+  "name": "INOX",
+  "seating_capacity": 140
+},
+{
+  "_id": {
+    "$oid": "65bf56480486d0fa15a34a85"
+  },
+  "therater_id": 3,
+  "name": "Carnival",
+  "seating_capacity": 140
+},
+{
+  "_id": {
+    "$oid": "65bf569a0486d0fa15a34a89"
+  },
+  "therater_id": 4,
+  "name": "Luxe",
+  "seating_capacity": 126
+},
+{
+  "_id": {
+    "$oid": "65bf56c80486d0fa15a34a8d"
+  },
+  "therater_id": 5,
+  "name": "Cinépolis",
+  "seating_capacity": 154
+}]

@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "65a4ee29fbb77f18a628521a"
+  },
+  "movie_id": 1,
+  "title": "Oppenheimer",
+  "coursel_img": "https://i.ibb.co/TqVPSBJ/carousel1.jpg",
+  "card_img": "https://m.media-amazon.com/images/I/81XXxWVKbOL.jpg",
+  "category": "Biography, Drama, History",
+  "year": 2023,
+  "duration": "3h 1m",
+  "star_rating": 4,
+  "type_rating": "PG - 13",
+  "director": "Christopher Nolan",
+  "actors": "Cillian Murphy, Emily Blunt, Matt Damon",
+  "description": "The story of American scientist, J.Robert Oppenheimer, and his role in the development of the atomic bomb",
+  "in_coursel": true,
+  "language": "English"
+},
+{
+  "_id": {
+    "$oid": "65a4ee3dfbb77f18a628521b"
+  },
+  "movie_id": 2,
+  "title": "Johnwick Chapter4",
+  "coursel_img": "https://i.ibb.co/kQh5806/carousel2.jpg",
+  "card_img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/6aec1a106199299.5f8a325998dca.jpg",
+  "category": "Action, Crime, Thriller",
+  "year": 2023,
+  "duration": "2h 49m",
+  "star_rating": 4,
+  "type_rating": "PG - 13",
+  "director": "Chad Stahelski",
+  "actors": "Keanu Reeves, Laurence Fishburne, George Georgiou",
+  "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+  "in_coursel": true,
+  "language": "English"
+},
+{
+  "_id": {
+    "$oid": "65a4ee51fbb77f18a628521c"
+  },
+  "movie_id": 3,
+  "title": "Blue Beetle",
+  "coursel_img": "https://i.ibb.co/w60hP50/carousel3.jpg",
+  "card_img": "https://ih1.redbubble.net/image.5191542403.2857/raf,750x1000,075,t,192033:321fc38aa7.u2.jpg",
+  "category": "Action, Adventure, Sci-Fi",
+  "year": 2023,
+  "duration": "2h 7m",
+  "star_rating": 5,
+  "type_rating": "PG - 13",
+  "director": "Angel Manuel Soto",
+  "actors": "Xolo Maridueña, Bruna Marquezine, Becky G",
+  "description": "An alien scarab chooses Jaime Reyes to be its symbiotic host, bestowing the recent college graduate with a suit of armor that's capable of extraordinary powers, forever changing his destiny as he becomes the superhero known as Blue Beetle.",
+  "in_coursel": true,
+  "language": "English"
+},
+{
+  "_id": {
+    "$oid": "65a4ee5ffbb77f18a628521d"
+  },
+  "movie_id": 4,
+  "title": "The Creator",
+  "coursel_img": "https://i.ibb.co/dghCNmh/carousel4.jpg",
+  "card_img": "https://cdn.cinematerial.com/p/297x/n1xwnuad/the-creator-movie-poster-md.jpg?v=1692775551",
+  "category": "Action, Adventure, Sci-Fi",
+  "year": 2023,
+  "duration": "2h 13m",
+  "star_rating": 4,
+  "type_rating": "PG - 13",
+  "director": "Gareth Edwards",
+  "actors": "John David Washington, Madeleine Yuna Voyles, Gemma Chan",
+  "description": "Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the secret weapon, a robot in the form of a young child.",
+  "in_coursel": true,
+  "language": "English"
+},
+{
+  "_id": {
+    "$oid": "65a4ee6dfbb77f18a628521e"
+  },
+  "movie_id": 5,
+  "title": "Killers of the Flower Moon",
+  "coursel_img": "https://i.ibb.co/x6xFVWZ/carousel5.jpg",
+  "card_img": "https://image.tmdb.org/t/p/original/pi0kmFJAEcHpTjqITHPFUic9omf.jpg",
+  "category": "Crime, Drama, History",
+  "year": 2023,
+  "duration": "3h 26m",
+  "star_rating": 4,
+  "type_rating": "PG - 13",
+  "director": "Martin Scorsese",
+  "actors": "Leonardo DiCaprio, Robert De Niro, Lily Gladstone",
+  "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
+  "in_coursel": true,
+  "language": "English"
+},
+{
+  "_id": {
+    "$oid": "65a4ee7bfbb77f18a628521f"
+  },
+  "movie_id": 6,
+  "title": "Animal",
+  "coursel_img": "https://www.hindustantimes.com/ht-img/img/2023/09/18/550x309/Ranbir_Kapoor_Animal_1695014609357_1695014627403.webp",
+  "card_img": "https://www.hindustantimes.com/ht-img/img/2023/09/26/original/Bobby_Deol_Animal_1695709343155.jpg",
+  "category": "Crime, Drama, Action",
+  "year": 2023,
+  "duration": "3h 21m",
+  "star_rating": 3,
+  "type_rating": "CBFC: A",
+  "director": "Sandeep Reddy Vanga",
+  "actors": "Ranbir Kapoor, Anil Kapoor, Bobby Deol",
+  "description": "A father, who is often away due to work, is unable to comprehend the intensity of his son's fervent love and admiration, which creates conflict between both of them.",
+  "in_coursel": false,
+  "language": "Hindi"
+},
+{
+  "_id": {
+    "$oid": "65cba1f4b46e3a47d814685a"
+  },
+  "movie_id": 7,
+  "title": "Fighter",
+  "coursel_img": "https://preview.redd.it/new-fighter-poster-the-film-releases-in-one-month-set-to-be-v0-1694oij8hd8c1.jpeg?auto=webp&s=475385f31cefefe1905bb0cf25197f028b7ea899",
+  "card_img": "https://i.imgur.com/hYH6bFk.jpg",
+  "category": "Adventure, Thriller, Action",
+  "year": 2024,
+  "duration": "2h 46m",
+  "star_rating": 5,
+  "type_rating": "CBFC: UA",
+  "director": "Siddharth Anand",
+  "actors": "Deepika Padukone, Anil Kapoor, Hrithik Roshan",
+  "description": "Top IAF aviators come together in the face of imminent danger, to form Air Dragons. FIGHTER unfolds their camaraderie, brotherhood and battles, internal and external.",
+  "in_coursel": false,
+  "language": "Hindi"
+},
+{
+  "_id": {
+    "$oid": "65cba4bfb46e3a47d814685b"
+  },
+  "movie_id": 8,
+  "title": "Hanu-Man",
+  "coursel_img": "https://static.toiimg.com/photo/95667975.cms",
+  "card_img": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hanu-man-et00311673-1704954533.jpg",
+  "category": "Adventure, Fantasy, Action",
+  "year": 2024,
+  "duration": "2h 38m",
+  "star_rating": 5,
+  "type_rating": "CBFC: UA",
+  "director": "Prasanth Varma",
+  "actors": "Teja Sajja, Amritha Aiyer, Varalaxmi Sarathkumar",
+  "description": "An imaginary place called Anjanadri where the protagonist gets the powers of Hanuman and fights for Anjanadri.",
+  "in_coursel": true,
+  "language": "Hindi"
+}]

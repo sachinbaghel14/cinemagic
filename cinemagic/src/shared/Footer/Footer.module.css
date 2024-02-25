@@ -1,0 +1,104 @@
+.footer{
+    background-color: transparent !important;
+    padding-top: 48px;
+}
+.hrLight{
+border: 1px solid rgba(255,255,255,.75);
+margin: 0px 150px 48px 150px;
+border-top: 1px solid;
+}
+/* -------------------------------------------------------------------------bottom footer-------------------------------------------------------*/
+.footerBtm{
+ display: flex;
+ justify-content:space-between;
+ margin:0px 150px
+}
+.logo{
+    color: white;
+    width: 180px;
+    /* height: 38px; */
+    margin-bottom: 24px;
+}
+.about{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    /* color: rgba(255,255,255,.65);
+    font-size: 14px; */
+}
+.about a{
+    color: rgba(255,255,255,.65) !important;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.about a:hover{
+    color: white !important;
+}
+
+.btmLeft{
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: center;
+margin-bottom: 24px;
+}
+.btmRight{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ padding-top: 40px;
+}
+.socialIcons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.socialIcons div{
+    color: white;
+    width: 46px;
+    height: 46px;
+    background-color: rgba(255,255,255,.08);
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.socialIcons div:hover{
+    background-color: white;
+}
+.twitter:hover{
+    color:#00acee;
+}
+.facebook:hover{
+    color:#3b5998
+}
+.insta:hover{
+    color: #fa7e1e;
+}
+.pint:hover{
+    color:#fa7e1e;
+}
+.youtube:hover{
+    color:#FF0000;
+}
+.cardImg{
+    height: 28px;
+    width: 187px;
+}
+
+.copyRight{
+    font-size: 12px;
+    padding-bottom: 24px;
+    color:white;
+    opacity: 0.5;
+    margin-left: 150px;
+}
+.copyRight a{
+    /* color: #fe696a; */
+    color: white;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,131 @@
+/* top header */
+.loadingSpinner{
+    margin: 100px 0px;
+}
+.logo {
+    height: 46px;
+    margin: 4px;
+}
+
+.headerTop {
+    padding: 12px 118px 12px 118px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: white !important; */
+}
+
+.searchBar {
+    width: 700px;
+    height: 44px;
+    background: transparent;
+    color: white;
+}
+
+.searchBar::placeholder {
+    color: white !important;
+    opacity: 0.5;
+}
+
+.searchBar:focus {
+    border-color: #fe696a;
+    box-shadow: 0 0 8px 0 #fe696a;
+    background: transparent;
+    color: white;
+    /* box-shadow: none; */
+}
+
+.searchBtn {
+    /* position: absolute;
+    margin-left: -55px; */
+    border: none;
+    color: white;
+}
+
+.searchIcon {
+    display: flex;
+    align-items: center;
+}
+
+.rightHeader {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightHeaderItems {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 65px;
+    right: 0;
+    background-color: #0A061e;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 15px 15px 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d9d9d9;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #4d4761;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 15px 20px 32px;
+}
+
+.profileImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 4px;
+    /* border: 0.2px solid #7d879c; */
+}
+
+.imgTitle span {
+    /* font-weight: 600; */
+    font-size: 20px;
+    margin: 0;
+}
+
+.hrLight {
+    border: 2px solid #ffffff;
+    border-top: 2px solid white;
+}

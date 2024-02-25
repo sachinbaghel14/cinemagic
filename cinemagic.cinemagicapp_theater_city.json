@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a7a"
+  },
+  "id": 1,
+  "theater_id": 1,
+  "city_id": 1
+},
+{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a7b"
+  },
+  "id": 2,
+  "theater_id": 1,
+  "city_id": 2
+},
+{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a7c"
+  },
+  "id": 3,
+  "theater_id": 1,
+  "city_id": 3
+},
+{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a7d"
+  },
+  "id": 4,
+  "theater_id": 1,
+  "city_id": 4
+},
+{
+  "_id": {
+    "$oid": "65bf55a20486d0fa15a34a7e"
+  },
+  "id": 5,
+  "theater_id": 1,
+  "city_id": 5
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a80"
+  },
+  "id": 6,
+  "theater_id": 2,
+  "city_id": 1
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a81"
+  },
+  "id": 7,
+  "theater_id": 2,
+  "city_id": 2
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a82"
+  },
+  "id": 8,
+  "theater_id": 2,
+  "city_id": 3
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a83"
+  },
+  "id": 9,
+  "theater_id": 2,
+  "city_id": 4
+},
+{
+  "_id": {
+    "$oid": "65bf56020486d0fa15a34a84"
+  },
+  "id": 10,
+  "theater_id": 2,
+  "city_id": 5
+},
+{
+  "_id": {
+    "$oid": "65bf56480486d0fa15a34a86"
+  },
+  "id": 11,
+  "theater_id": 3,
+  "city_id": 1
+},
+{
+  "_id": {
+    "$oid": "65bf56480486d0fa15a34a87"
+  },
+  "id": 12,
+  "theater_id": 3,
+  "city_id": 2
+},
+{
+  "_id": {
+    "$oid": "65bf56480486d0fa15a34a88"
+  },
+  "id": 13,
+  "theater_id": 3,
+  "city_id": 3
+},
+{
+  "_id": {
+    "$oid": "65bf569a0486d0fa15a34a8a"
+  },
+  "id": 14,
+  "theater_id": 4,
+  "city_id": 1
+},
+{
+  "_id": {
+    "$oid": "65bf569a0486d0fa15a34a8b"
+  },
+  "id": 15,
+  "theater_id": 4,
+  "city_id": 2
+},
+{
+  "_id": {
+    "$oid": "65bf569a0486d0fa15a34a8c"
+  },
+  "id": 16,
+  "theater_id": 4,
+  "city_id": 3
+},
+{
+  "_id": {
+    "$oid": "65bf56c80486d0fa15a34a8e"
+  },
+  "id": 17,
+  "theater_id": 5,
+  "city_id": 1
+},
+{
+  "_id": {
+    "$oid": "65bf56c80486d0fa15a34a8f"
+  },
+  "id": 18,
+  "theater_id": 5,
+  "city_id": 2
+}]

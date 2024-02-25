@@ -1,0 +1,13 @@
+.LoadingSpinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+  }
+  .LoadingSpinner p{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+  }

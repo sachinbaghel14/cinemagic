@@ -1,0 +1,92 @@
+.loadingSpinner {
+    margin: 100px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 450px;
+    border-color: #f0f0f0;
+    /* box-shadow: 0 0 70px 10px #F0f0f0; */
+    padding: 40px 30px;
+    color: #4b566b;
+    margin-top: 40px;
+
+}
+.loginTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+}
+
+.formLabel {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.formInput:focus {
+    border-color: #fee505;
+    box-shadow: none;
+}
+
+.forget {
+    text-decoration: none;
+    color: #fe696a;
+}
+
+.rememberCheck {
+    border: 1px solid #4b566b !important;
+}
+
+.rememberCheck:focus {
+    box-shadow: none;
+
+}
+
+.rememberCheck:checked {
+    background-color: #fee505 !important;
+    border: 1px solid #fee505 !important;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: #fee505;
+    padding: 9px 0px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.loginBtn:hover {
+    background-color: #CFDC34;
+    color: black;
+}
+
+.loginContainer h6 {
+    margin-bottom: 0px;
+}
+
+.createAccount{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.signupBtn {
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
