@@ -16,29 +16,38 @@ export function Ticket(props) {
     const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     function handleTicketClick() {
         setShowSpinner(true)
-        Bookticket({ user: props.user.email, movie: props.movieName, time: props.item.time, date: props.item.date, theater: props.item.theater, city: props.item.city, seats: seats }, props.user).then((result) => {
-            if (result !== 401) {
-                setShowSpinner(false)
-                Swal.fire({
-                    icon: "success",
-                    title: "Ticket Booked",
-                    confirmButtonText: "<span style='color:black'> Ok </span>",
-                    confirmButtonColor: "#fee505",
+        if (seats.length != 0) {
+            Bookticket({ user: props.user.email, movie: props.movieName, time: props.item.time, date: props.item.date, theater: props.item.theater, city: props.item.city, seats: seats }, props.user).then((result) => {
+                if (result !== 401) {
+                    setShowSpinner(false)
+                    Swal.fire({
+                        icon: "success",
+                        title: "Ticket Booked",
+                        confirmButtonText: "<span style='color:black'> Ok </span>",
+                        confirmButtonColor: "#fee505",
 
-                }).then((result) => {
-                    window.location.reload(false);
-                });
+                    }).then((result) => {
+                        window.location.reload(false);
+                    });
 
-            } else {
-                setShowSpinner(false)
-                toast.warn("Session Expired, Please Login", {
-                    position: toast.POSITION.BOTTOM_RIGHT,
-                    theme: "dark",
-                })
-                localStorage.removeItem("userDetails")
-                navigate("/")
-            }
-        })
+                } else {
+                    setShowSpinner(false)
+                    toast.warn("Session Expired, Please Login", {
+                        position: toast.POSITION.BOTTOM_RIGHT,
+                        theme: "dark",
+                    })
+                    localStorage.removeItem("userDetails")
+                    navigate("/")
+                }
+            })
+        } else {
+            setShowSpinner(false)
+            toast.warn("Please select your seats to confirm your booking", {
+                position: toast.POSITION.BOTTOM_RIGHT,
+                theme: "dark",
+            })
+        }
+
     }
     return (
         <div>
